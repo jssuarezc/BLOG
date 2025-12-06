@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica's Blog</title>
+    <!-- LINK TO THE GENERATED CSS FILE HERE -->
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <a href="#" class="flex items-center">
+                    <img src="images/logo.png" class="h-6 mr-3 sm:h-9">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap">Jessica S.C.</span>
+                </a>
+                <div class="items-center justify-between hidden w-fill lg:flex lg:w-auto lg:order-1">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center lg:order-2">
+                    <a href="#" class="text-white bg-fuchsia-700 hover:bg-fuchsia-900 focus:ring-4 
+                    focus:ring-fuchsia-400 font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.6 
+                    sm:mr-2 lg:mr-0">Blog</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+    <section class="bg-white">
+        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:pt-28">
+
+        <!-- Blog Article -->
+        <div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
+          <div class="max-w-2xl">
+            <!-- Avatar Media -->
+            <div class="flex justify-between items-center mb-6">
+              <div class="flex w-full sm:items-center gap-x-5 sm:gap-x-3">
+                <div class="grow">
+                  <div class="flex justify-between items-center gap-x-2">
+                    <div>
+                      <div class="inline-block">
+                        <div class="sm:mb-1 block text-start cursor-pointer">
+                          <span class="text-sky-500  font-semibold text-gray-800 dark:text-neutral-200">
+                            SOCIAL COMPUTING
+                          </span>
+                        </div>
+                      </div>
+
+                      <ul class="text-xs text-gray-500 dark:text-neutral-500">
+                        <li class="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full dark:text-neutral-400 dark:before:bg-neutral-600">
+                          Nov 2025
+                        </li>
+                        <li class="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full dark:text-neutral-400 dark:before:bg-neutral-600">
+                          x min read
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!-- Button Group -->
+                    <div>
+                      <button type="button" class="py-1.5 px-2.5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700">
+                        Reflection
+                      </button>
+                    </div>
+                    <!-- End Button Group -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Avatar Media -->
+
+            <!-- Content -->
+            <div class="space-y-5 md:space-y-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold md:text-3xl dark:text-white">About Wisdom of the Crowd, Algorithms and Machine Learning</h2>
+
+                <p class="text-lg text-gray-800 dark:text-neutral-200">New day, new writing task. This is a reflection I wrote for the Social Computing course. I will tackle this in three parts, based on the references linked below: </p>
+              </div>
+
+              <div class="space-y-3">
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">	
+                    The first topic for this analysis is “Crowdsourced Detection of Emotionally Manipulative Language”, as I have a particular interest on emotion understanding and human behavior, and goes on 
+                    to distinguish emotional manipulative language (EML, language that induces a particular emotion in the reading to get a result on their benefit) from intrinsically emotional content (IEC, 
+                    or information that is emotional regardless of the language used). There is a need to fix non-expert annotations because they often mix IEC with EML and it gets labeled wrong, generating 
+                    false positives around half of the time. If machines were trained on this dataset, the error would propagate. To overcome this, the anchor comparison was a brilliant approach. This text has 
+                    really amplified my view on moderation bots and the criteria that is used on forums like Reddit. If applications / forums start to include a “highly manipulative” label, people will be less 
+                    prone to manipulation and coordinated attacks / harassment will be less likely to happen. The fact that this error can propagate on chatbots if not treated properly highlights the need for 
+                    quality dataset for LLM models, since they are available to all public nowadays.  </p>
+
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
+                    The second topic is “The nightmare videos of children's YouTube”. I was familiar with this topic of discussion beforehand, but it still amazes me how auto generated content can be so non 
+                    language friendly (like “adds” with a language syntax that is not Grammarly correct but SEO friendly), and how it will impact kids in the future. Moreover, this is a huge wakeup call on 
+                    fake news. Misinformation is spreading through small children, and if left unsupervised they can find overtly sexual videos or content that might generate phobias. Nowadays it is not 
+                    enough to know one scope of software engineering, future professionals must consider ethical concerns like this one and use critical thinking to avoid fake videos like this to propagate. ?          
+                </p>
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
+                    The third topic chosen for this analysis is “Will the Crowd Game the Algorithm?”, which is relevant nowadays due to the increase of fake news and misinformation in social media (in particular, 
+                    platforms like Facebook that is mainly used by middle-aged people). I agree that it was wise to use the “wisdom of the crowd” to effectively identify fake news website and keep thrusted content 
+                    afloat. It is surprising to know that there was no bias on discernment in the group that was aware that their decisions will influence the social media algorithms score, as people with power 
+                    usually abuse it. Of course, there was some minor struggle with political sources (given that as the text said, some people cannot discern between “fact” and “opinion”), but overall, the raking 
+                    offered by the crowd often emulated those provided by professional fact-checkers.         
+                </p>
+              </div>
+              <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
+                <li class="ps-2"><a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="https://dl.acm.org/doi/10.1145/3313831.3376232">
+                    Will the Crowd Game the Algorithm?:</a> Using Layperson Judgments to Combat Misinformation on Social Media by Downranking Distrusted Sources</li>
+                <li class="ps-2"><a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="https://dl.acm.org/doi/10.1145/3313831.3376375">
+                    Crowdsourced Detection of Emotionally Manipulative Language:</a> Article published in ACM</li>
+                <li class="ps-2"><a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="https://youtu.be/v9EKV2nSU8w">
+                    The nightmare videos of childrens:</a> TEDx talk about what's wrong with the internet today</li>
+              </ul>
+
+              <div>
+                <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
+                  Wisdom of the crowd
+                </a>
+                <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
+                  Machine Learning
+                </a>
+                <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
+                  Algorithms
+                </a>
+              </div>
+            </div>
+            <!-- End Content -->
+          </div>
+        </div>
+                </div>
+                
+    </section>
+</html>

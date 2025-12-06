@@ -22,8 +22,8 @@
                     </ul>
                 </div>
                 <div class="flex items-center lg:order-2">
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-900 focus:ring-4 
-                    focus:ring-blue-400 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.6 
+                    <a href="#" class="text-white bg-fuchsia-700 hover:bg-fuchsia-900 focus:ring-4 
+                    focus:ring-fuchsia-400 font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.6 
                     sm:mr-2 lg:mr-0">Blog</a>
                 </div>
             </div>
@@ -31,163 +31,127 @@
     </header>
 </body>
     <section class="bg-white">
-        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:pt-28">
+        <div class="grid space-y-6 max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:pt-28">
 
-<!-- Blog Article -->
-<div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
-  <div class="max-w-2xl">
-    <!-- Avatar Media -->
-    <div class="flex justify-between items-center mb-6">
-      <div class="flex w-full sm:items-center gap-x-5 sm:gap-x-3">
-        <div class="grow">
-          <div class="flex justify-between items-center gap-x-2">
-            <div>
-              <div class="inline-block">
-                <div class="sm:mb-1 block text-start cursor-pointer">
-                  <span class="font-semibold text-gray-800 dark:text-neutral-200">
-                    SOCIAL COMPUTING
-                  </span>
-                </div>
-              </div>
 
-              <ul class="text-xs text-gray-500 dark:text-neutral-500">
-                <li class="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full dark:text-neutral-400 dark:before:bg-neutral-600">
-                  Dec 2025
-                </li>
-                <li class="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full dark:text-neutral-400 dark:before:bg-neutral-600">
-                  x min read
-                </li>
-              </ul>
-            </div>
 
-            <!-- Button Group -->
-            <div>
-              <button type="button" class="py-1.5 px-2.5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700">
-                Article
-              </button>
-            </div>
-            <!-- End Button Group -->
+
+        <article class="flex bg-white transition hover:shadow-xl group">
+          <div class="rotate-180 p-2 [writing-mode:vertical-lr]">
+            <time datetime="2022-10-10" class="flex items-center justify-between gap-4 text-xs font-bold text-gray-900 uppercase">
+              <span class="text-fuchsia-800">Reflection</span>
+              <span class="w-px flex-1 bg-gray-900/10"></span>
+              <span>Oct 10</span>
+            </time>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Avatar Media -->
 
-    <!-- Content -->
-    <div class="space-y-5 md:space-y-8">
-      <div class="space-y-3">
-        <h2 class="text-2xl font-bold md:text-3xl dark:text-white">About AI, UXD and other topics</h2>
+          <div class="hidden sm:block sm:basis-56">
+            <img alt="" src="images/reflection01.jpg" class="aspect-square h-full w-full object-cover transition-transform duration-500 ease-in-out 
+            group-hover:scale-105">
+          </div>
 
-        <p class="text-lg text-gray-800 dark:text-neutral-200">New day, new writing task. This is a reflection I wrote for the HCI course. I will tackle this in three parts, based on the references linked below: </p>
-      </div>
+          <div class="flex flex-1 flex-col justify-between">
+            <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+              <a href="reflection01.html">
+                <h3 class="font-bold text-gray-900 uppercase">
+                  About AI, UXD and other topics
+                </h3>
+              </a>
 
-      <div class="space-y-3">
-        <h3 class="text-2xl font-semibold dark:text-white">I. Academic</h3>
+              <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                The eyes are the windows of the soul, and apparently, your whole identity. This first paper 
+                discusses a great topic: “how much does your gaze reviews about you?”.  In the latest “Arctic 
+                AI Days” at Oulu University, there was a company sharing their research findings on early Alzheimer 
+                detection based on an ocular test. Only one lens in each eye, minimal data background, and ...
+              </p>
+            </div>
 
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">The eyes are the windows of the soul, and apparently, your whole identity. This first paper discusses 
-            touches on a great topic: “how much does your gaze reviews about you?”.  In the latest “Arctic AI Days” at Oulu University, there was a company sharing 
-            their research findings on early Alzheimer detection based on an ocular test. Only one lens in each eye, minimal data background, and someone will get to 
-            know the probability of having this disease. This information blew my mind, as I had close relatives that had suffered from the disease. However, I was truly 
-            impressed to find out that there is actually more information stored in our eyes.  The fact that we can determine how much of a learning curve each individual 
-            holds and task prediction possibilities opens a field of improving current learning paths and making education more customizable.</p>
+            <div class="sm:flex sm:items-end sm:justify-end">
+              <a href="reflection01.html" class="block bg-sky-500 px-5 py-3 text-center text-xs font-bold text-gray-50 uppercase transition hover:bg-sky-700">
+                Read Blog
+              </a>
+            </div>
+          </div>
+        </article>
 
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            As the paper went on, I was also fascinated by the amount of information that is stored in a person's gaze. I might not be alone in suggesting that optical scan identification 
-            is a new way to go in the future. This will further be explained in the semi academic section, but it is important to consider what we could use this data for, and 
-            how it can benefit the overall user. A possibility is to train algorithms to better detect sickness based on health patterns. A riskier possibility is to use this data to 
-            match two individuals. Who knows? It will be done for some interesting project research in the Applied Computing and HCI field.             
-        </p>
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            Peru knows a few things about failed marketing campaigns. “Eager Sellers and Stony Buyers” was a pretty enjoyable read for me, given my former background in Business Administration. 
-            One of our nation’s prides is “Inka Cola”, this soda mix based on local herbs that stood up the Coca Cola company when they tried to invade the Peruvian market. As a result, Coca Cola 
-            ended up buying Lindley Corporation, proud owners of Inka Cola. In 2014, Inka Cola decided to launch a product that will “appeal” to Peruvians: a soda based on chicha morada, this purple 
-            corn and beloved drink of the whole nation. For the company, it was an excellent choice to diversify the portfolio and offer a new product range. For the consumer, it was a blasphemy to 
-            the “homemade” tag that has followed chicha morada since it is so linked to our heritage.             
-        </p>
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            The opposite case is the one of group Añaños, creators of “Kola Real”, a soda brand that appeals to the economic sectors C, D and E of the population. This falls into a “smash hit” 
-            category since the brand managed to deliver a quality product at an accessible price. The product slogans say it all “calidad al precio justo”, which in English would be translated to 
-            “quality at a fair price”.  I will close this section with a different product. Coca Cola company also has a market in Perú for juices (under “Frugos”), since our country is well known 
-            for its wide variety of fresh produce. In 2009, they had the great idea to introduce to the market “Hugo”, a new line that mixes fresh juice with milk. The slogan was crafted to introduce 
-            the juice idea in a cleverly written point. According to many marketing experts, the problem was that they tried to compete one-to-one against the freshly squeezed juice market. And as 
-            stated through this paper, this was actually inducing a significant behavioral change. In the eyes of the consumer, people will always choose freshly squeezed juice.            
-        </p>
-      </div>
-      <div class="space-y-3">
-        <h3 class="text-2xl font-semibold dark:text-white">II. Semi Academic</h3>
+        <article class="flex bg-white transition hover:shadow-xl group">
+          <div class="rotate-180 p-2 [writing-mode:vertical-lr]">
+            <time datetime="2022-10-10" class="flex items-center justify-between gap-4 text-xs font-bold text-gray-900 uppercase">
+              <span class="text-fuchsia-800">Reflection</span>
+              <span class="w-px flex-1 bg-gray-900/10"></span>
+              <span>Oct 10</span>
+            </time>
+          </div>
 
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">“Can AI without common sense be safe for humans?” The talk opens with a very interesting statement, and that has become a 
-            concern nowadays. Yes, LLM models have recently regulated their sycophancy levels after a wave of users turned to ChatGPT or Gemini asking for advice regarding personal matters. That has led 
-            to terrible outcomes like isolation and suicide.  Since these models have been trained in raw data, in many times that means that the data itself is biased – has gender favoritism, racism and 
-            so on. I loved that the speaker made a call out that said data should actually be trained and judged by human tutors. There was another topic from my Social Computer course where we check this 
-            video channel with automated content that has childhood characters killing each other, and since the titles were SEO friendly, that is the first thing little kids will see popping up on their screen.  </p>
+          <div class="hidden sm:block sm:basis-56">
+            <img alt="" src="images/reflection02.jpg" class="aspect-square h-full w-full object-cover transition-transform duration-500 ease-in-out 
+            group-hover:scale-105">
+          </div>
 
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            So... Common sense is not that common, apparently. And this is why most common-sense areas are ignored nowadays: there is more focus on logic, and we overlook the moral and normative areas to 
-            maximize revenue. Big manufacturers pushed their models over research laboratories that have no resources to train their own datasets. I certainly hope this issue gets more focus since there is 
-            plenty to explore still, as the speaker mentioned.            
-        </p>
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            The second talk is an issue that I often see elderly people face: hear impairment. Through my volunteering years I met several people with disabilities including walking, vision impairment, and 
-            so on. Since I come from a third world country, getting access to operations or even equipment to normalize your condition is not common due to the cost of equipment. I would like to think that at 
-            one point technology will be accessible to everyone, so people like Rebecca can integrate into society and not face discrimination overall. As I watched the video, I also noticed most volunteering 
-            people feel this “patronizing” feeling not because of the person's condition, but because they perceived them as non-normal and tend to feel sorry about them instead of treating them as equals.            
-        </p>
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            It also brought to my attention how communication channels change through generations. In this case, her example of “this generation hates voice messages, so they default to texting” was accurate, 
-            and I think it really benefits people with all kinds of impairments too. Text can be easily interpreted by these “alt-text” options and is friendly with people that are not able to speak and so on. 
-            The insight of “cochlear implant” was also novel to me, and she really debunked some questions I had about the implant function. Overall, this whole chat made me realize how many things are normal-user 
-            centric and not inclusive. I had spine surgery a while ago, and just then I noticed that most chairs are uncomfortable for someone that just recovered from surgery. At that point, I started wondering 
-            how many things are designed for practicality rather than usability.     
-        </p>
-      </div>      
-      <div class="space-y-3">
-        <h3 class="text-2xl font-semibold dark:text-white">III. Professional</h3>
+          <div class="flex flex-1 flex-col justify-between">
+            <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+              <a href="reflection02.html">
+                <h3 class="font-bold text-gray-900 uppercase">
+                  About Cicada 301, CS and Social Sciences and Robotic Telepresence
+                </h3>
+              </a>
 
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">The mapping through the jobs in the field of Ux was insightful. Indeed, there is no “one job fits all”. Amongst the ones that caught my 
-            attention were the “UX researchers” since they are in field people in charge of studying how a product is made and the “program manager” since I have experience managing a team. It also puts in perspective 
-            how many companies try to merge roles by having one or two people assuming 10 roles, and that translates into poorly designed products with limitations for other users.   Following the second part of the 
-            video (the text), I like how each category has some research questions to improve their design mechanism, like “can this function cause motion sickness2 in the case of a VR designer and “what is the ideal 
-            language” for a conversational designer.  </p>
+              <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                The first topic for this analysis is Cicada 3301. A mix of scavenger hunt, viral post 
+                online and a very unsatisfying ending (out of the media) makes me think this group were radical 
+                activist recruiting people to make a stance, sort of “anonymous” style. It will explain how they 
+                managed to create social controversy, but at the same closes the activity when something ...
+              </p>
+            </div>
 
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            The second part of the UX course was informative as well. At one point, I thought the “universal approach” was a good design perspective since it covers most use cases. However, a “one size fits all” is a 
-            terrible perspective, and it is something that most fashion companies are adopting nowadays. Inclusive design seemed fair enough, with the “design for one, extended for many” focus that will cover most of 
-            the visual range users. But the equity-focus designed blew my mind. It is true: Some people need extra setup to use an application properly, so why not include it as a core part of the design?           
-        </p>
-        <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
-            Alas, it is important to have an equity-focused approach when we are handling datasets. As the video mentioned, when voice recognition appeared it was mainly recognizing male voices or English speaker ones, 
-            since that was the demographic it was trained on. That was poorly done and led to an extra delay in delivering a better service. I have designed plenty of web applications in the past, and the most common 
-            question is: “does this question need to be here?”. In most cases, people paste templates without considering why they were designed like that. Again, common sense is not that common.          
-        </p>
-      </div>  
-      <ul class="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-neutral-200">
-        <li class="ps-2"><a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="https://www.youtube.com/watch?v=XZBZ5aBEUrs">
-            Rebecca Knill is a cyborg:</a> Ted Talk</li>
-        <li class="ps-2"><a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="https://www.youtube.com/watch?v=SvBR0OGT5VI">
-            Yejin Choi talk about AI being both smart and stupid:</a> Ted Talk</li>
-        <li class="ps-2"><a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="https://www.coursera.org/learn/foundations-user-experience-design/">
-            Foundations of UXD</a> Module I and Module II recap</li>
-      </ul>
+            <div class="sm:flex sm:items-end sm:justify-end">
+              <a href="reflection02.html" class="block bg-sky-500 px-5 py-3 text-center text-xs font-bold text-gray-50 uppercase transition hover:bg-sky-700">
+                Read Blog
+              </a>
+            </div>
+          </div>
+        </article>
 
-      <div>
-        <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
-          HCI
-        </a>
-        <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
-          Artificial Intelligence
-        </a>
-        <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
-          Consumer Behavior
-        </a>
-      </div>
-    </div>
-    <!-- End Content -->
-  </div>
-</div>
+        <article class="flex bg-white transition hover:shadow-xl group">
+          <div class="rotate-180 p-2 [writing-mode:vertical-lr]">
+            <time datetime="2022-10-10" class="flex items-center justify-between gap-4 text-xs font-bold text-gray-900 uppercase">
+              <span class="text-fuchsia-800">Reflection</span>
+              <span class="w-px flex-1 bg-gray-900/10"></span>
+              <span>Oct 10</span>
+            </time>
+          </div>
+
+          <div class="hidden sm:block sm:basis-56">
+            <img alt="" src="images/reflection03.jpg" class="aspect-square h-full w-full object-cover transition-transform duration-500 ease-in-out 
+            group-hover:scale-105">
+          </div>
+
+          <div class="flex flex-1 flex-col justify-between">
+            <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+              <a href="reflection03.html">
+                <h3 class="font-bold text-gray-900 uppercase">
+                  About Wisdom of the Crowd, Algorithms and Machine Learning
+                </h3>
+              </a>
+
+              <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                The first topic for this analysis is “Crowdsourced Detection of Emotionally Manipulative 
+                Language”, as I have a particular interest on emotion understanding and human behavior, 
+                and goes on to distinguish emotional manipulative language (EML, language that induces a 
+                particular emotion in the reading to get a result on their benefit) from intrinsically ...
+              </p>
+            </div>
+
+            <div class="sm:flex sm:items-end sm:justify-end">
+              <a href="reflection03.html" class="block bg-sky-500 px-5 py-3 text-center text-xs font-bold text-gray-50 uppercase transition hover:bg-sky-700">
+                Read Blog
+              </a>
+            </div>
+          </div>
+        </article>
 
 
 
-        </div>
+        </div>                
     </section>
 </html>
