@@ -29,18 +29,198 @@
             </div>
         </nav>
     </header>
-    <section class="bg-white">
-        <div class="max-w-screen-xl text-center px-4 py-10 pt-20 pb-8 mx-auto sm:px-6 lg:px-8 lg:gap-8 xl:gap-0 lg:py-16 lg:pt-28">
-            <h1 class="block text-7xl font-bold text-gray-800 sm:text-9xl dark:text-white">404</h1>
-            <p class="mt-3 text-gray-600 dark:text-neutral-400">Oops, something went wrong.</p>
-            <p class="text-gray-600 dark:text-neutral-400">Page currently under construction.</p>
-            <div class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3">
-                <a class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="index.html">
-                <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-                Back to Home
-                </a>
-            </div>
+    <section>
+    <!-- LINK TO PORTFOLIO SECTION -->     
+     
+        <!-- Card Blog -->
+        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <!-- Title -->
+        <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">PORTFOLIO</h2>
+            <p class="mt-1 text-gray-600 dark:text-neutral-400">These are some of the things I am currently working on. My stack is quite diverse and goes from UI/UX desig, IoT, Machine Vision and AI, Project Management and so on.</p>
         </div>
-    </section>    
+        <!-- End Title -->
+
+            <!-- Grid -->
+            <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
+                <!-- Card -->
+                <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="https://github.com/jssuarezc/Affective-Computing">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
+                    <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="images/emotionclip.jpg" alt="Blog Image">
+                    </div>
+
+                    <div class="grow">
+                    <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
+                        Emotion Video Player
+                    </h3>
+                    <p class="mt-3 text-gray-600 dark:text-neutral-400">
+                        This emotion detector uses a custom dataset and the final result is a hue bar where the final user can see the emotions shown during the duration of the clip. Based on EmotionCLIP.
+                    </p>
+                    <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
+                        Check Repo
+                        <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </p>
+                    </div>
+                </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="https://github.com/jsorv/IoT-group-12">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
+                    <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="images/wiring.jpg" alt="Blog Image">
+                    </div>
+
+                    <div class="grow">
+                    <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
+                        Security Alarm System
+                    </h3>
+                    <p class="mt-3 text-gray-600 dark:text-neutral-400">
+                        This project is an alarm system designed for the IoT course of the University of Oulu, using MQTT protocol and Hive for https display. A Raspberry Pi Pico HW is required and other components like an LCD screen.
+                    </p>
+                    <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
+                        Check Repo
+                        <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </p>
+                    </div>
+                </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="https://github.com/jssuarezc/Lego-IoT-Project">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
+                    <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="images/ev3_robot.jpg" alt="Blog Image">
+                    </div>
+
+                    <div class="grow">
+                    <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
+                        IoT - Industry 4
+                    </h3>
+                    <p class="mt-3 text-gray-600 dark:text-neutral-400">
+                        For this assignment, we created a robot application based on Insdustry 4 needs. The robot goes to different working stations(aka. "lines"), pick up a parcel and drops it to a different station, then returns to base.
+                    </p>
+                    <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
+                        Check Repo
+                        <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </p>
+                    </div>
+                </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="#">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+                    <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
+                    <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="images/ROS2_NAV.jpg" alt="Blog Image">
+                    </div>
+
+                    <div class="grow">
+                    <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
+                        ROS2 Maze Navigator
+                    </h3>
+                    <p class="mt-3 text-gray-600 dark:text-neutral-400">
+                        Maze navigator developed in ROS2 Humble, tracks motion line and uses Gazebo and RViz.
+                    </p>
+                    <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
+                        Check Repo
+                        <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </p>
+                    </div>
+                </div>
+                </a>
+                <!-- End Card -->
+            </div>
+            <!-- End Grid -->
+        </div>
+    </section>
+    <section>
+        <!-- Wireframes -->
+        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <!-- Grid -->
+        <div class="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
+            <div class="lg:col-span-7">
+            <!-- Grid -->
+            <div class="grid grid-cols-12 gap-2 sm:gap-6 items-center lg:-translate-x-10">
+                <div class="col-span-4">
+                <img class="rounded-xl" src="images/sketch01.jpg" alt="Features Image">
+                </div>
+                <!-- End Col -->
+
+                <div class="col-span-3">
+                <img class="rounded-xl" src="images/002.jpg" alt="Features Image">
+                </div>
+                <!-- End Col -->
+
+                <div class="col-span-5">
+                <img class="rounded-xl" src="images/003.jpg" alt="Features Image">
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Grid -->
+            </div>
+            <!-- End Col -->
+
+            <div class="mt-5 sm:mt-10 lg:mt-0 lg:col-span-5">
+            <div class="space-y-6 sm:space-y-8">
+                <!-- Title -->
+                <div class="space-y-2 md:space-y-4">
+                <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
+                    UI / UX stack
+                </h2>
+                <p class="text-gray-500 dark:text-neutral-500">
+                    An eye for design is what an application needs to stand up in the market. Personally, I like to be involved in the whole design process.
+                </p>
+                </div>
+                <!-- End Title -->
+
+                <!-- List -->
+                <ul class="space-y-2 sm:space-y-4">
+                <li class="flex gap-x-3">
+                    <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                    <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div class="grow">
+                    <span class="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+                        <span class="font-bold">Paper sketches</span> to plan the general idea.
+                    </span>
+                    </div>
+                </li>
+
+                <li class="flex gap-x-3">
+                    <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                    <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div class="grow">
+                    <span class="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+                        Low fidelity prototyping to check the application functionality.
+                    </span>
+                    </div>
+                </li>
+
+                <li class="flex gap-x-3">
+                    <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                    <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div class="grow">
+                    <span class="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+                        High fidelity prototypes that <span class="font-bold">stand out.</span>
+                    </span>
+                    </div>
+                </li>
+                </ul>
+                <!-- End List -->
+            </div>
+            </div>
+            <!-- End Col -->
+        </div>
+        <!-- End Grid -->
+        </div>
+        <!-- Wireframes -->        
+    </section>
 </body>
 </html>
