@@ -14,3 +14,9 @@
     from { opacity: 1; transform: translateY(0); }
     to { opacity: 0; transform: translateY(-10px); }
 }
+
+.bgimg {
+    background-image: url(images/community.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
