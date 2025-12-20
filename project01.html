@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica's Blog</title>
+    <!-- LINK TO THE GENERATED CSS FILE HERE -->
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <a href="#" class="flex items-center">
+                    <img src="images/logo.png" class="h-6 mr-3 sm:h-9">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap">Jessica S.C.</span>
+                </a>
+                <div class="items-center justify-between hidden w-fill lg:flex lg:w-auto lg:order-1">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="community.html">Community</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center lg:order-2">
+                    <a href="blog.html" class="text-white bg-fuchsia-700 hover:bg-fuchsia-900 focus:ring-4 
+                    focus:ring-fuchsia-400 font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.6 
+                    sm:mr-2 lg:mr-0">Blog</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+    <section class="bg-white">
+        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:pt-28">
+
+        <!-- Blog Article -->
+        <div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
+          <div class="max-w-2xl">
+            <!-- Avatar Media -->
+            <div class="flex justify-between items-center mb-6">
+              <div class="flex w-full sm:items-center gap-x-5 sm:gap-x-3">
+                <div class="grow">
+                  <div class="flex justify-between items-center gap-x-2">
+                    <div>
+                      <div class="inline-block">
+                        <div class="sm:mb-1 block text-start cursor-pointer">
+                          <span class="font-semibold  text-sky-500 dark:text-neutral-200">
+                            IOT & Electronics
+                          </span>
+                        </div>
+                      </div>
+
+                      <ul class="text-xs text-gray-500 dark:text-neutral-500">
+                        <li class="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full dark:text-neutral-400 dark:before:bg-neutral-600">
+                          Dec 2025
+                        </li>
+                        <li class="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full dark:text-neutral-400 dark:before:bg-neutral-600">
+                          x min read
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!-- Button Group -->
+                    <div>
+                      <button type="button" class="py-1.5 px-2.5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700">
+                        Project
+                      </button>
+                    </div>
+                    <!-- End Button Group -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Avatar Media -->
+
+            <!-- Content -->
+            <div class="space-y-5 md:space-y-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold md:text-3xl dark:text-white">About IoT, Group Projects and Raspberry Pi</h2>
+              </div>
+
+              <div class="space-y-3">
+
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">I had mixed feelings when the IoT course started. On one side, Dinesh was nice enough to answer my email and letting me know 
+                    that full remote implementation was possible. On the other hand, the course came with a warning: <a class="italic">"Good programming skills in a system programming language are required 
+                    (C/C++/Rust, any one of these)".</a> I have used both C and C++ during my bachelor, and I even took elective courses in Electronics during my degree, but would that be good enough? (impostor
+                    syndrome is real). Once I stopped overthinking it, I remember how far I came during the last years and I chose to give it a try.
+                </p>
+
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
+                    The intro lecture was pretty intense. Just by looking at the deadlines and the schedule, I knew there was a high risk that I will spend my Christmas glued to the screen (and I kinda am atm). 
+                    I teamed up with 3 lovely finnish girls an one Vaasa student. Since it was still quite early in the course, I made sure to 1. Pick my Raspberry Pi board on time and 2. Brush up my knowledge.
+                    I have on store a Pico Groove kit and some spare parts used in Arduino, so with that in mind I started from scratch, wandering around, checking if all my components were useful for the project.
+                    During out first videocall, we consider everyone's skills to decide who will be in charge of programming and testing the pico, who will collaborate on the MQTT and NodeRed connection and who 
+                    will be implementing the web interface / mobile phone application. Since I had the board and the components, I went in with the Pico programming.       
+                </p>
+
+                <figure>
+                    <img class="w-full object-cover rounded-xl" src="images/iot_pico.jpg" alt="Blog Image">
+                    <figcaption class="mt-3 text-sm text-center text-gray-500 dark:text-neutral-500">
+                    All components worked properly :D
+                    </figcaption>
+                </figure>
+
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
+                    Towards the course, we kept exchanging ideas and shaping the project. Since some of the members were not as familiar, we considered to build something simple and add on complexity afterwards. 
+                    Since I had a digital display, a "visitor counter" project and schematic was submitted as a first draft. While I was implementing the initial code, I found an LCD display in my component drawer, and 
+                    that replaced the digital display. Throw in some discussion meetings here and there, and the idea took shape: an "access control" software that would work as a security home system. Made the hardware
+                    connection, the wiring scheme and pushed some initial code and voilá! Our initial system was up.  
+                </p>
+
+                <figure>
+                    <img class="w-full object-cover rounded-xl" src="images/wiring.jpg" alt="Blog Image">
+                    <figcaption class="mt-3 text-sm text-center text-gray-500 dark:text-neutral-500">
+                    Wiring without the RGB
+                    </figcaption>
+                </figure>
+
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
+                    As the project grow in complexity, some problems arised. Implementing the MQTT protocol went pretty smooth, but adding the .mqtt connection to our mobile interface did not work as expected. Initial 
+                    trials with the sensor had it beeping often so we had to add a cooling system. Alas, we did manage to deploy the mobile interface, but the button was not triggering the event ... Since the deadline was 
+                    approaching, I devided to visit Fahad at the Vaasa University to do a debug session (there is just so much you can do through remote calling). We end up with a gorgeous web interface and the whole project 
+                    looked professional enough. Now all that was left was preparing for the presentation next day.
+                </p>
+
+                <figure>
+                    <img class="w-full object-cover rounded-xl" src="images/iot_arch.png" alt="Blog Image">
+                    <figcaption class="mt-3 text-sm text-center text-gray-500 dark:text-neutral-500">
+                    Noice! Looks good enough.
+                    </figcaption>
+                </figure>
+
+                <p class="text-lg text-justify text-gray-800 dark:text-neutral-200">
+                    Overall, this was one of my best group experiences. All the members were involved with the collaboration, and even the remote members were active during the presentation. I arrived early morning to test 
+                    the prototype and make sure it was working. We managed answering all the questions about the project architecture and the system functionalities, and Dinesh seemed very pleased. A few things to fix on the 
+                    data display, but the main point was to have a working physical prototype. Now the question running through my head is: will this be my last IoT course? I do not think so, and I hope it is not. Now if you 
+                    excuse me, I need to go back to debugging if I want to have enough time to prep my Christmas dinner on 23/12.
+                </p>
+
+              </div>
+    
+              <div>
+                <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
+                  IoT
+                </a>
+                <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
+                  MQTT
+                </a>
+                <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" href="#">
+                  Web Development
+                </a>
+              </div>
+            </div>
+            <!-- End Content -->
+          </div>
+        </div>
+                </div>
+                
+    </section>
+</html>
