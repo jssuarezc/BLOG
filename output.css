@@ -392,17 +392,11 @@
   .table {
     display: table;
   }
-  .aspect-3\/2 {
-    aspect-ratio: 3/2;
-  }
   .aspect-4\/3 {
     aspect-ratio: 4/3;
   }
   .aspect-square {
     aspect-ratio: 1 / 1;
-  }
-  .aspect-video {
-    aspect-ratio: var(--aspect-video);
   }
   .size-3 {
     width: calc(var(--spacing) * 3);
@@ -431,9 +425,6 @@
   .h-4 {
     height: calc(var(--spacing) * 4);
   }
-  .h-5 {
-    height: calc(var(--spacing) * 5);
-  }
   .h-5\/6 {
     height: calc(5/6 * 100%);
   }
@@ -460,9 +451,6 @@
   }
   .w-4 {
     width: calc(var(--spacing) * 4);
-  }
-  .w-16 {
-    width: calc(var(--spacing) * 16);
   }
   .w-44 {
     width: calc(var(--spacing) * 44);
@@ -523,18 +511,6 @@
   }
   .border-collapse {
     border-collapse: collapse;
-  }
-  .translate-x-10 {
-    --tw-translate-x: calc(var(--spacing) * 10);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-x-20 {
-    --tw-translate-x: calc(var(--spacing) * 20);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .-translate-y-10 {
-    --tw-translate-y: calc(var(--spacing) * -10);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-y-4 {
     --tw-translate-y: calc(var(--spacing) * 4);
@@ -977,9 +953,6 @@
   }
   .text-gray-900 {
     color: var(--color-gray-900);
-  }
-  .text-orange-500 {
-    color: var(--color-orange-500);
   }
   .text-rose-600 {
     color: var(--color-rose-600);
@@ -1514,11 +1487,6 @@
       margin-top: calc(var(--spacing) * 10);
     }
   }
-  .md\:block {
-    @media (width >= 48rem) {
-      display: block;
-    }
-  }
   .md\:size-7 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 7);
@@ -1690,12 +1658,6 @@
   .lg\:-translate-x-10 {
     @media (width >= 64rem) {
       --tw-translate-x: calc(var(--spacing) * -10);
-      translate: var(--tw-translate-x) var(--tw-translate-y);
-    }
-  }
-  .lg\:translate-x-20 {
-    @media (width >= 64rem) {
-      --tw-translate-x: calc(var(--spacing) * 20);
       translate: var(--tw-translate-x) var(--tw-translate-y);
     }
   }
